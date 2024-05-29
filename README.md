@@ -49,7 +49,7 @@ pip install validators # Install openvalidators (if running a validator)
 Start the script using PM2:
 
 ```bash
-pm2 start ufw.py --name ufw
+pm2 start ufw.py --name ufw -- --netuid 10
 ```
 
 This will start the UFW configuration script in the background, and PM2 will make sure it stays running.
